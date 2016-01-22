@@ -1,8 +1,5 @@
 import fpinscala._
 
-var a = List(1,2)
-List.sum(a)
-
 // Chapter 3 - Pattern Matching
 
 // 3.1
@@ -25,7 +22,7 @@ List.setHead(7, List(1,2,3,4,5))
 List.drop(List(1,2,3,4,5,6,7,8,9), 3)
 
 // 3.5
-List.dropWhile(List(1,2,3,4,5,6,7))(_*2 < 7)
+//List.dropWhile(List(1,2,3,4,5,6,7))(_*2 < 7)
 
 // 3.6
 List.init(List(1,2,3,4,5,6,7,8))
@@ -44,7 +41,7 @@ List.foldLeft(List(1,5,10), 1.0)(_ / _)
 
 // 3.11
 List.sum3(List(1,2,3,4))
-List.product3(List(1,2,3,4))
+//List.product3(List(1,2,3,4))
 List.length3(List(1,2,3,4))
 
 // 3.12
